@@ -13,6 +13,11 @@ import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
+import springBoot from "../../assets/spring-boot-svgrepo-com.svg"
+import flask from "../../assets/flask-svgrepo-com.svg"
+import python from "../../assets/python-svgrepo-com.svg"
+import angular from "../../assets/angular-icon-svgrepo-com (1).svg"
+import java from "../../assets/java-4-logo-svgrepo-com.svg"
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
@@ -148,26 +153,13 @@ export function Main() {
                 "weight": "400"
               },
               "image": [
-                {
-                  "src": boostrapIcon,
-                  "width": 20,
-                  "height": 20
-                },
+                
                 {
                   "src": cssIcon,
                   "width": 20,
                   "height": 20
                 },
-                {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
+                
                 {
                   "src": htmlIcon,
                   "width": 20,
@@ -178,11 +170,27 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": python,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": flask,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": springBoot,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": angular,
+                  "width": 20,
+                  "height": 20
+                },
+                
                 {
                   "src": nodeIcon,
                   "width": 20,
@@ -194,7 +202,7 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": java,
                   "width": 20,
                   "height": 20
                 },
@@ -203,16 +211,8 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
+                
+                
 
               ],
               "polygon": {
@@ -257,7 +257,6 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      <Project></Project>
       <Contact></Contact>
     </Container>
   );
