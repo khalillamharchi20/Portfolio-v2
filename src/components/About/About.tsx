@@ -26,7 +26,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hello! I'm Khalil Lamharchi, a Full Stack Software Developer with over two years of experience. I'm always eager to learn new things and tackle challenging problems.
+          Hello! I'm Khalil Lamharchi, a Full Stack Software Developer with 3 years of experience. I'm always eager to learn new things and tackle challenging problems.
           </p>
         </ScrollAnimation>
         
